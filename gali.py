@@ -208,7 +208,7 @@ galis = ["MADARCHOD TERI MAA KI CHUT ME GHUTKA KHAAKE THOOK DUNGA 🤣🤣",
     "TERA MAA MERI FAN",
     "TERI SEXY BAHEN KI CHUT OP","Teri Gand me mera land mc"]
 admins = [5344691638]
-my = types.InlineKeyboardButton(text="Owner", url="t.me/Bgmi_owner_420")
+my = types.InlineKeyboardButton(text="Owner", url="t./{username} ")
 xx = types.InlineKeyboardMarkup()
 xx.add(my)
 
@@ -231,7 +231,7 @@ def gali(message):
     for gali in galis:
         try:
             bot.send_message(message.chat.id, f"{username} {gali}")
-            time.sleep(0.5)  # Delay for 0.5 seconds
+            time.sleep(1.0)  # Delay for 0.5 seconds
         except Exception as e:
             bot.reply_to(message, f"error {e}")
 
