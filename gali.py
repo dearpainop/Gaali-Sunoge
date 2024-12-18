@@ -208,7 +208,7 @@ galis = ["MADARCHOD TERI MAA KI CHUT ME GHUTKA KHAAKE THOOK DUNGA 🤣🤣",
     "TERA MAA MERI FAN",
     "TERI SEXY BAHEN KI CHUT OP","Teri Gand me mera land mc"]
 admins = [5344691638]
-my = types.InlineKeyboardButton(text="Owner", url="Kya Rand")
+my = types.InlineKeyboardButton(text="Owner", url="t.me/Bgmi_owner_420")
 xx = types.InlineKeyboardMarkup()
 xx.add(my)
 
